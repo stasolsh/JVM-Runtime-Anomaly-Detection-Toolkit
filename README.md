@@ -165,7 +165,7 @@ Supported anomaly types:
 - DEADLOCK
 
 Implemented in:
-- [AnomalyMonitor.java](AnomalyMonitor.java)
+- [AnomalyMonitor.java](src/main/java/com/example/anomaly/anomalymonitor/AnomalyMonitor.java)
 
 Based on:
 :contentReference[oaicite:3]{index=3}
