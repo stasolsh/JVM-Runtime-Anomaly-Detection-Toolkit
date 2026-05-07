@@ -138,7 +138,7 @@ The thread probe uses `ThreadMXBean` to detect:
 - blocked thread contention
 
 Implemented in:
-- [ThreadAnomalyProbe.java](ThreadAnomalyProbe.java)
+- [ThreadAnomalyProbe.java](src/main/java/com/example/anomaly/detectdeadlocks/ThreadAnomalyProbe.java)
 
 Based on:
 :contentReference[oaicite:2]{index=2}
