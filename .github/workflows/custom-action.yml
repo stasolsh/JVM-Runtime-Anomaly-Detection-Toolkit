@@ -16,3 +16,8 @@ jobs:
         run: chmod +x ./gradlew
       - name: Run the Gradle verify phase
         run: ./gradlew clean build --refresh-dependencies --no-daemon
+      - name: Upload coverage
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./build/reports/jacoco/test/jacocoTestReport.xml
