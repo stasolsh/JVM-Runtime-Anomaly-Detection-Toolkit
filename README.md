@@ -190,7 +190,7 @@ Additional features:
 - runtime observability integration
 
 Implemented in:
-- [AnomalyMXBean.java](AnomalyMXBean.java)
+- [AnomalyMXBean.java](src/main/java/com/example/anomaly/anomalymonitor/AnomalyMXBean.java)
 
 Based on:
 :contentReference[oaicite:4]{index=4}
