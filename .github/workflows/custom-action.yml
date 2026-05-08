@@ -13,4 +13,4 @@ jobs:
           java-version: 21
           distribution: temurin
       - name: Run the Maven verify phase
-        run: gradlew.bat clean test build --refresh-dependencies --no-daemon
+        run: ./gradlew clean build --refresh-dependencies --no-daemon
