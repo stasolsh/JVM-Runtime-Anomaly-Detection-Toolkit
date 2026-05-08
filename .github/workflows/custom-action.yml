@@ -12,5 +12,7 @@ jobs:
         with:
           java-version: 21
           distribution: temurin
-      - name: Run the Maven verify phase
+      - name: Make Gradle wrapper executable
+        run: chmod +x ./gradlew
+      - name: Run the Gradle verify phase
         run: ./gradlew clean build --refresh-dependencies --no-daemon
