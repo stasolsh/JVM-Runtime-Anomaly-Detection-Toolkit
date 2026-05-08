@@ -1,4 +1,10 @@
 # JVM Runtime Anomaly Detection Toolkit
+![Build](https://github.com/stasolsh/JVM-Runtime-Anomaly-Detection-Toolkit/actions/workflows/custom-action.yml/badge.svg)
+![Coverage](https://codecov.io/gh/stasolsh/JVM-Runtime-Anomaly-Detection-Toolkit/branch/master/graph/badge.svg)
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Gradle](https://img.shields.io/badge/Gradle-8.12.1-02303A?logo=gradle&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-5.11-red?logo=junit5)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
 > Lightweight JVM anomaly detection toolkit for monitoring GC pressure, CPU spikes, deadlocks, heap usage, and runtime health using Java MXBeans and JMX notifications.
 
