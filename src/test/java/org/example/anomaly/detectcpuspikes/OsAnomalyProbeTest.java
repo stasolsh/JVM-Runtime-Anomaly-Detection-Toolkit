@@ -56,4 +56,5 @@ class OsAnomalyProbeTest {
 
         assertThat(snapshot).isNotNull();
     }
+
 }
