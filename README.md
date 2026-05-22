@@ -80,14 +80,14 @@ JMX Notifications / Alerts
 
 | Component                                                                                            | Description |
 |------------------------------------------------------------------------------------------------------|---|
-| [AnomalyMonitor.java](app/src/main/java/org/example/anomaly/anomalymonitor/AnomalyMonitor.java)          | Central anomaly monitoring engine coordinating all runtime probes and publishing JMX notifications |
-| [AnomalyMXBean.java](app/src/main/java/org/example/anomaly/anomalymonitor/AnomalyMXBean.java)            | JMX MXBean interface exposing anomaly states and configurable thresholds |
-| [GcAnomalyProbe.java](app/src/main/java/org/example/anomaly/detectgcthrash/GcAnomalyProbe.java)          | Detects GC thrashing and high heap usage using JVM garbage collector statistics |
-| [GcSnapshot.java](app/src/main/java/org/example/anomaly/detectgcthrash/GcSnapshot.java)                  | Immutable runtime snapshot containing GC and heap metrics |
-| [ThreadAnomalyProbe.java](app/src/main/java/org/example/anomaly/detectdeadlocks/ThreadAnomalyProbe.java) | Detects deadlocks and blocked thread contention |
-| [OsAnomalyProbe.java](app/src/main/java/org/example/anomaly/detectcpuspikes/OsAnomalyProbe.java)         | Monitors CPU load and file descriptor usage |
-| [OsSnapshot.java](app/src/main/java/org/example/anomaly/detectcpuspikes/OsSnapshot.java)                 | Immutable snapshot of operating system metrics |
-| [Demo.java](app/src/main/java/org/example/anomaly/detectcpuspikes/Demo.java)                             | Example runtime demonstrations for anomaly detection scenarios |
+| [AnomalyMonitor.java](src/main/java/org/example/anomaly/anomalymonitor/AnomalyMonitor.java)          | Central anomaly monitoring engine coordinating all runtime probes and publishing JMX notifications |
+| [AnomalyMXBean.java](src/main/java/org/example/anomaly/anomalymonitor/AnomalyMXBean.java)            | JMX MXBean interface exposing anomaly states and configurable thresholds |
+| [GcAnomalyProbe.java](src/main/java/org/example/anomaly/detectgcthrash/GcAnomalyProbe.java)          | Detects GC thrashing and high heap usage using JVM garbage collector statistics |
+| [GcSnapshot.java](src/main/java/org/example/anomaly/detectgcthrash/GcSnapshot.java)                  | Immutable runtime snapshot containing GC and heap metrics |
+| [ThreadAnomalyProbe.java](src/main/java/org/example/anomaly/detectdeadlocks/ThreadAnomalyProbe.java) | Detects deadlocks and blocked thread contention |
+| [OsAnomalyProbe.java](src/main/java/org/example/anomaly/detectcpuspikes/OsAnomalyProbe.java)         | Monitors CPU load and file descriptor usage |
+| [OsSnapshot.java](src/main/java/org/example/anomaly/detectcpuspikes/OsSnapshot.java)                 | Immutable snapshot of operating system metrics |
+| [Demo.java](src/main/java/org/example/anomaly/detectcpuspikes/Demo.java)                             | Example runtime demonstrations for anomaly detection scenarios |
 
 ---
 
@@ -107,7 +107,7 @@ An anomaly is triggered when:
 - heap usage remains critically high
 
 Implemented in:
-- [GcAnomalyProbe.java](app/src/main/java/org/example/anomaly/detectgcthrash/GcAnomalyProbe.java)
+- [GcAnomalyProbe.java](src/main/java/org/example/anomaly/detectgcthrash/GcAnomalyProbe.java)
 
 Based on:
 :contentReference[oaicite:0]{index=0}
